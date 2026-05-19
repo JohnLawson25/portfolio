@@ -1,1 +1,5 @@
-
+title: John Lawson
+#logo:
+description: Cool Stuff about me
+show_dowloads: True
+Theme: jekyll-theme-minial
