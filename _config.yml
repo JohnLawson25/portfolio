@@ -1,5 +1,5 @@
 title: John Lawson
-logo: Logo Neon.jpg
-description: Cool Stuff about me
+#logo: Logo Neon.jpg
+#description: Cool Stuff about me
 show_dowloads: True
 Theme: jekyll-theme-minimal
