@@ -1,0 +1,123 @@
+body {
+    background-color: white;
+   
+}
+
+.container{
+    display: flex;
+    background-color: blue;
+}
+
+.flexItem{
+    background-color: blue;
+    color: azure;
+   margin: 1rem;
+    padding: 1rem;
+    font: 1.5rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.flexItem2 {
+    background-color: blue;
+    color: azure;
+    padding: 1rem;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font: 1.5rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.flexname{
+    background-color: blue;
+    color: azure;
+   margin: 1rem;
+    padding: 1rem;
+    font-size: 36pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flexMain{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    
+    margin-bottom: 15rem;
+}
+
+
+.flexCore{ 
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+
+.flexCore:hover img{
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+}
+
+
+
+.flexWork{
+    margin-left: 4rem;
+}
+
+.flexWork:hover img{
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+}
+
+.gridFood{
+    grid-column: 2/ 3;
+    grid-row: 2 / 3;
+    margin-left: 4rem;
+    
+}
+
+.flexInterests{
+    margin-left: 4rem;
+    
+}
+
+.flexInterests:hover img{
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+}
+
+.flexcontainer2{
+    display: flex;
+    background-color: #2b1a1c;
+    justify-content: center;
+}
+
+.footerItem{
+    background-color: #2b1a1c;
+    font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.searchbar{
+    width: 40%;
+   
+}
+.button{
+    background-color: lightgreen;
+    font-size: 12pt;
+    margin-left: 1rem;
+    border-radius: 5px;
+
+}
+
+.h2title{
+    margin-left: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    font-style: oblique ;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 14pt;
+}

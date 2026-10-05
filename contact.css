@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    background-color: #2b1a1c;
+}
+
+.flexItem{
+    background-color: #2b1a1c;
+    color: azure;
+   margin: 1rem;
+    padding: 1rem;
+    font: 1.5rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.flexItem2 {
+    background-color: #2b1a1c;
+    color: azure;
+    padding: 1rem;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font: 1.5rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.flexname{
+    background-color: #2b1a1c;
+    color: azure;
+   margin: 1rem;
+    padding: 1rem;
+    font-size: 36pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footerItem{
+    font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button{
+    background-color: lightgreen;
+    font-size: 12pt;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.flexcontainer2{
+    display: flex;
+    background-color: #2b1a1c;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.footerItem{
+    background-color: #2b1a1c;
+    font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.flexcontact{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.flexContactItem{
+   /* border: 1px solid black;*/
+    margin-top: 2rem;
+    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+.searchbar{
+    width: 40%;
+   
+}
