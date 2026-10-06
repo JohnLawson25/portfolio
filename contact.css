@@ -1,10 +1,12 @@
 .container{
     display: flex;
-    background-color: #2b1a1c;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .flexItem{
-    background-color: #2b1a1c;
+    background-color: blue;
     color: azure;
    margin: 1rem;
     padding: 1rem;
@@ -14,7 +16,7 @@
 
 
 .flexItem2 {
-    background-color: #2b1a1c;
+    background-color: blue;
     color: azure;
     padding: 1rem;
     margin-left: auto;
@@ -26,7 +28,7 @@
 
 
 .flexname{
-    background-color: #2b1a1c;
+    background-color: blue;
     color: azure;
    margin: 1rem;
     padding: 1rem;
@@ -49,13 +51,15 @@
     display: flex;
     background-color: #2b1a1c;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .footerItem{
     background-color: #2b1a1c;
     font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: azure;
+    padding: 1.5rem;
+    
 }
 
 .flexcontact{
@@ -73,7 +77,8 @@
     margin-bottom: 5rem;
 }
 
-.searchbar{
-    width: 40%;
-   
+.contact-Info{
+    margin-left:5rem;
 }
+
+

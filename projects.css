@@ -1,6 +1,8 @@
 .container{
     display: flex;
     background-color: blue;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
     
 }
 
