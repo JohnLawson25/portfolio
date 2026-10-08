@@ -60,6 +60,20 @@ body {
     transition: transform 0.5s ease;
 }
 
+.flexCore .hidden-core {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.flexCore:hover .hidden-core {
+    display: block;
+}
+
 
 
 .flexWork{
@@ -71,6 +85,40 @@ body {
     transition: transform 0.5s ease;
 }
 
+.flexWork .hidden-work {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+}
+
+.flexWork:hover .hidden-work {
+    display: block;
+}
+
+.flexInterests{
+    margin-left: 4rem;
+}
+
+.flexInterests:hover img{
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+}
+
+.flexInterests .hidden-interests {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+}
+
+.flexInterests:hover .hidden-interests {
+    display: block;
+}
+
+
 .gridFood{
     grid-column: 2/ 3;
     grid-row: 2 / 3;
@@ -78,10 +126,7 @@ body {
     
 }
 
-.flexInterests{
-    margin-left: 4rem;
-    
-}
+
 
 .flexInterests:hover img{
     transform: scale(1.15);
