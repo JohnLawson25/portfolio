@@ -1,29 +1,28 @@
-body {
-    background-color: white;
-   
+.main{
+    background-image: url("media/dark.jpg");
+    background-size: cover;
 }
 
 .container{
     display: flex;
-    background-color: blue;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .flexItem{
-    background-color: blue;
-    color: azure;
-   margin: 1rem;
-    padding: 1rem;
+    background-color: white;
+    color: red;
+    margin: 1rem;
     font: 1.5rem 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 
 .flexItem2 {
-    background-color: blue;
-    color: azure;
-    padding: 1rem;
+    background-color: white;
+    color: red;
+    padding-right: 1rem;
     margin-left: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -33,10 +32,9 @@ body {
 
 
 .flexname{
-    background-color: blue;
-    color: azure;
-   margin: 1rem;
-    padding: 1rem;
+    background-color: white;
+    color: red;
+    margin: 1rem;
     font-size: 36pt;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -45,14 +43,16 @@ body {
     display: flex;
     flex-direction: row;
     border: 1px solid blue;
+    color:azure;
+    margin-bottom: 20rem;
     
-    margin-bottom: 15rem;
 }
 
 
 .flexCore{ 
     margin-left: 3rem;
     margin-right: 4rem;
+    position: relative;
 }
 
 .flexCore:hover img{
@@ -66,6 +66,7 @@ body {
     top: 100%;
     left: 0;
     background-color: white;
+    color: black;
     padding: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
@@ -78,6 +79,7 @@ body {
 
 .flexWork{
     margin-left: 4rem;
+    position: relative;
 }
 
 .flexWork:hover img{
@@ -91,6 +93,7 @@ body {
     top: 100%;
     left: 0;
     background-color: white;
+    color: black;
 }
 
 .flexWork:hover .hidden-work {
@@ -99,6 +102,7 @@ body {
 
 .flexInterests{
     margin-left: 4rem;
+    position: relative;
 }
 
 .flexInterests:hover img{
@@ -111,21 +115,14 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: white;
-}
-
-.flexInterests:hover .hidden-interests {
-    display: block;
-}
-
-
-.gridFood{
-    grid-column: 2/ 3;
-    grid-row: 2 / 3;
-    margin-left: 4rem;
     
 }
 
+.flexInterests:hover .hidden-interests {
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
 
 
 .flexInterests:hover img{
@@ -139,6 +136,12 @@ body {
     justify-content: center;
 }
 
+.description{
+    color:azure;
+    background-color: transparent;
+
+}
+
 .footerItem{
     background-color: #2b1a1c;
     font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -146,17 +149,7 @@ body {
     padding: 1rem;
 }
 
-.searchbar{
-    width: 40%;
-   
-}
-.button{
-    background-color: lightgreen;
-    font-size: 12pt;
-    margin-left: 1rem;
-    border-radius: 5px;
 
-}
 
 .h2title{
     margin-left: 3rem;
@@ -164,6 +157,7 @@ body {
     font-size: 4rem;
     font-style: oblique ;
     text-decoration: underline;
+    color: azure;
 }
 
 p{
