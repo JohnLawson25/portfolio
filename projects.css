@@ -93,7 +93,10 @@
     display: flex;
     background-color: #2b1a1c;
     justify-content: center;
-    margin-top: 15rem;
+      position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footerItem{

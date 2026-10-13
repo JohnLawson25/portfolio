@@ -112,33 +112,42 @@
 
 .flexInterests .hidden-interests {
     display: none;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 70%;
     left: 0;
-    
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    z-index: 1000;
 }
 
 .flexInterests:hover .hidden-interests {
     display: flex;
-    flex-direction: row;
     color: black;
 }
 
 
-.flexInterests:hover img{
-    transform: scale(1.15);
-    transition: transform 0.5s ease;
-}
 
 .flexcontainer2{
     display: flex;
     background-color: #2b1a1c;
     justify-content: center;
+      position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .description{
     color:azure;
     background-color: transparent;
+    padding-inline: 2rem;
+    text-decoration: underline;
 
 }
 
